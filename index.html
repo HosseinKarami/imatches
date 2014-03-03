@@ -1,0 +1,16 @@
+---
+layout: default
+title: Matches Gallery - Just remembering the past
+---
+<section class="images">
+      <ul class="container">
+    {% for post in paginator.posts %}
+        <li class="matches">
+          <h3>{{ post.title }}</h3>
+          <a href="{{ post.source }}" title="" target="_blank">
+            {{ post.content }}
+          </a>
+        </li>
+    {% endfor %}  </ul>
+    </section>
+{% include pagination.html %}

@@ -1,0 +1,10 @@
+# FireShell
+# http://getfireshell.com
+# @author Todd Motto
+
+_site
+node_modules
+.DS_Store
+.tmp
+.sass-cache
+*.sublime-*

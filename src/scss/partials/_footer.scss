@@ -1,0 +1,27 @@
+footer {
+  text-align: center;
+  padding: 4rem 0 1rem;
+  color: #BBA36C;
+  p{
+    text-align: center;
+    a{
+      color: #BBA36C;
+      &:hover {
+      color: darken(#BBA36C, 10%);
+      }
+    }
+  }
+  .social{
+    .facebook, .twitter{
+      display: inline-block;
+      @include position(relative, 0 0 0 0);
+    }
+    .facebook{
+      top: -5px;
+    }
+    .twitter{
+      top: 1px;
+    }
+  }
+}
+

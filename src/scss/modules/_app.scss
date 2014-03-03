@@ -1,0 +1,61 @@
+.paginator{
+  background: rgba(0, 0, 0, 0.08);
+  color: #BBA36C;
+  float: left;
+  width: 100%;
+  margin-top: 1.5rem;
+  a,
+  span {
+    padding: 1rem 0;
+    display: inline-block;
+    zoom: 1;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Roboto;
+    text-decoration: none;
+    float: left;
+    @include phone{
+        font-size: 1rem;
+      }
+      @include tablet{
+        font-size: 1rem;
+      }
+      @include desktop{
+        font-size: 1.5rem;
+      }
+      @include largedesktop{
+        font-size: 1.5rem;
+      }
+      @include biglargedesktop{
+        font-size: 1.5rem;
+      }
+  }
+  a {
+    color: #BBA36C;
+    &:hover {
+      color: darken(#BBA36C, 10%);
+      background: rgba(0, 0, 0, 0.17);
+    }
+  }
+  .count{
+    width: 31%;
+  }
+  .wrapper{
+    margin: 0 -0.5% 0 0.5%;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.newer, .previous {
+  width: 31%;
+}
+.older, .next {
+  width: 31%;
+}
+
+.previous, .next{
+  color: lighten(#BBA36C, 10%);
+}
