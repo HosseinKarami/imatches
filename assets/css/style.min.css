@@ -2,7 +2,7 @@
  * Matches Gallery
  * Jekyll build for imatches.ir
  * http://imatches.ir
- * @author Hossein Karami (@athreepik)
+ * @author Hossein Karami (@_Karamii)
  * @version 1.0.0
  * Copyright 2014. MIT licensed.
  */

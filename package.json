@@ -2,13 +2,13 @@
   "name": "Matches Gallery",
   "title": "Jekyll build for imatches.ir",
   "url": "http://imatches.ir",
-  "author": "Hossein Karami (@athreepik)",
+  "author": "Hossein Karami (@_Karamii)",
   "copyright": "2014",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/athreepik/imatches.git"
+    "url": "http://github.com/HosseinKarami/imatches.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
