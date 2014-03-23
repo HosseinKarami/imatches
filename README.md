@@ -2,10 +2,7 @@
 
 The Jekyll build for [imatches.ir](http://imatches.ir), built on [FireShell](//github.com/toddmotto/fireshell).
 
-Please learn, read, and use any code from this website. All content despite being hosted openly is subject to copyright of Todd Motto.
-
-* Homepage: [toddmotto.com](http://toddmotto.com)
-* Twitter: [@toddmotto](http://twitter.com/toddmotto)
+* Learn more about how to use Jekyll here:  [jekyllrb.com](http://jekyllrb.com)
 
 ## License
 
